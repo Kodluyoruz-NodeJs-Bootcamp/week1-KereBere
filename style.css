@@ -1,0 +1,106 @@
+*{
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body {
+    position: relative;
+    background: url(bg.jpg)
+}
+.container {
+    padding: 0 !important;
+    margin: auto;
+    max-width: 1000px;
+}
+.navbar{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+.logo{
+   height: 100%;
+}
+.title{
+    color: white;
+}
+
+.image-con {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 70% !important;
+}
+.drag-section{
+    display: flex
+}
+.drag-area{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(224, 174, 174, 0.6);
+    padding: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+.drag-title{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.up-icon{
+    width: 50%;
+}
+.active{
+    background-color: rgba(61, 53, 53, 0.6);
+} 
+ul{
+    margin: 1rem 0 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+}
+
+li{
+    height: 2rem;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 400; 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.delete-icon{
+    height: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.close-slide {
+    margin-bottom:0;
+    height:0px;
+    padding-top:0;
+    padding-bottom:0;
+    transition: 0.2s all ease-out;
+    /*Just reverse any spacing styling you've applied to make it **magically** disappear*/
+  }
+  .icon-source {
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      text-align: center;
+  }
+#header {
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    border-radius: 8px;
+}
